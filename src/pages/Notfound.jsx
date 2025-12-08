@@ -18,7 +18,7 @@ const Notfound = () => {
             Don&apos;t worry, our team is already on it.Please try refreshing
             the page or come back later.
           </Typography>
-          <Button color="gray" className="w-full px-4 md:w-[8rem]">
+          <Button color="gray" className="w-full px-4 md:w-[8rem] bg-green-600 hover:bg-green-700">
             <Link to="/">Go Back Home</Link>
           </Button>
         </div>

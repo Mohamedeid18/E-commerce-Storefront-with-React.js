@@ -12,14 +12,14 @@ import Users from "./pages/dashboard/Users";
 import Products from "./pages/dashboard/Products";
 import Orders from "./pages/dashboard/Orders";
 import ErrorBoundary from "./components/ErrorBoundary";
-import Notfound from "./pages/Notfound";
 import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import OrdersPage from "./pages/OrdersPage";
+import Notfound from "./pages/Notfound";
+import { Alert } from "@material-tailwind/react";
 import { createContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Alert } from "@material-tailwind/react";
 import { API_URLS } from "./api/config";
 export const AuthContext = createContext();
 
